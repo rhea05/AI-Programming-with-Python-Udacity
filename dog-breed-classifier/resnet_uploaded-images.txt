@@ -1,0 +1,531 @@
+
+Total Elapsed Runtime: 0:0:0
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+Namespace(arch='resnet', dir='uploaded_images/', dogfile='dognames.txt')
+Number of files = 4
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:            Animal_Name_01.jfif  label:                animal name
+ 2 key:            Object_Name_01.jfif  label:                object name
+ 3 key:                    Dog_01.jfif  label:                        dog
+ 4 key:                    Dog_02.jfif  label:                        dog
+
+     MATCH:
+
+                   Dog_02.jfif: 
+Real:                        dog   Classifier:                   pug, pug-dog
+
+ NOT A MATCH:
+
+           Animal_Name_01.jfif: 
+Real:                animal name   Classifier: brown bear, bruin, ursus arctos
+
+           Object_Name_01.jfif: 
+Real:                object name   Classifier:                     coffee mug
+
+                   Dog_01.jfif: 
+Real:                        dog   Classifier:      vizsla, hungarian pointer
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
+### before open
+### adjust result 1
+chihuahua
+<class 'str'>
+japanese spaniel
+<class 'str'>
+maltese dog, maltese terrier, maltese
+<class 'str'>
+pekinese, pekingese, peke
+<class 'str'>
+shih-tzu
+<class 'str'>
+blenheim spaniel
+<class 'str'>
+papillon
+<class 'str'>
+toy terrier
+<class 'str'>
+rhodesian ridgeback
+<class 'str'>
+afghan hound, afghan
+<class 'str'>
+basset, basset hound
+<class 'str'>
+beagle
+<class 'str'>
+bloodhound, sleuthhound
+<class 'str'>
+bluetick
+<class 'str'>
+black-and-tan coonhound
+<class 'str'>
+walker hound, walker foxhound
+<class 'str'>
+english foxhound
+<class 'str'>
+redbone
+<class 'str'>
+borzoi, russian wolfhound
+<class 'str'>
+irish wolfhound
+<class 'str'>
+italian greyhound
+<class 'str'>
+whippet
+<class 'str'>
+ibizan hound, ibizan podenco
+<class 'str'>
+norwegian elkhound, elkhound
+<class 'str'>
+otterhound, otter hound
+<class 'str'>
+saluki, gazelle hound
+<class 'str'>
+scottish deerhound, deerhound
+<class 'str'>
+weimaraner
+<class 'str'>
+staffordshire bullterrier, staffordshire bull terrier
+<class 'str'>
+american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+<class 'str'>
+bedlington terrier
+<class 'str'>
+border terrier
+<class 'str'>
+kerry blue terrier
+<class 'str'>
+irish terrier
+<class 'str'>
+norfolk terrier
+<class 'str'>
+norwich terrier
+<class 'str'>
+yorkshire terrier
+<class 'str'>
+wire-haired fox terrier
+<class 'str'>
+lakeland terrier
+<class 'str'>
+sealyham terrier, sealyham
+<class 'str'>
+airedale, airedale terrier
+<class 'str'>
+cairn, cairn terrier
+<class 'str'>
+australian terrier
+<class 'str'>
+dandie dinmont, dandie dinmont terrier
+<class 'str'>
+boston bull, boston terrier
+<class 'str'>
+miniature schnauzer
+<class 'str'>
+giant schnauzer
+<class 'str'>
+standard schnauzer, schnauzer
+<class 'str'>
+scotch terrier, scottish terrier, scottie
+<class 'str'>
+tibetan terrier, chrysanthemum dog
+<class 'str'>
+silky terrier, sydney silky
+<class 'str'>
+soft-coated wheaten terrier
+<class 'str'>
+west highland white terrier
+<class 'str'>
+lhasa, lhasa apso
+<class 'str'>
+flat-coated retriever
+<class 'str'>
+curly-coated retriever
+<class 'str'>
+golden retriever
+<class 'str'>
+labrador retriever
+<class 'str'>
+chesapeake bay retriever
+<class 'str'>
+german shorthaired pointer
+<class 'str'>
+vizsla, hungarian pointer
+<class 'str'>
+english setter
+<class 'str'>
+irish setter, red setter
+<class 'str'>
+gordon setter
+<class 'str'>
+brittany spaniel
+<class 'str'>
+clumber, clumber spaniel
+<class 'str'>
+english springer, english springer spaniel
+<class 'str'>
+welsh springer spaniel
+<class 'str'>
+cocker spaniel, english cocker spaniel, cocker
+<class 'str'>
+sussex spaniel
+<class 'str'>
+irish water spaniel
+<class 'str'>
+kuvasz
+<class 'str'>
+schipperke
+<class 'str'>
+groenendael
+<class 'str'>
+malinois
+<class 'str'>
+briard
+<class 'str'>
+kelpie
+<class 'str'>
+komondor
+<class 'str'>
+old english sheepdog, bobtail
+<class 'str'>
+shetland sheepdog, shetland sheep dog, shetland
+<class 'str'>
+collie
+<class 'str'>
+border collie
+<class 'str'>
+bouvier des flandres, bouviers des flandres
+<class 'str'>
+rottweiler
+<class 'str'>
+german shepherd, german shepherd dog, german police dog, alsatian
+<class 'str'>
+doberman, doberman pinscher
+<class 'str'>
+miniature pinscher
+<class 'str'>
+greater swiss mountain dog
+<class 'str'>
+bernese mountain dog
+<class 'str'>
+appenzeller
+<class 'str'>
+entlebucher
+<class 'str'>
+boxer
+<class 'str'>
+bull mastiff
+<class 'str'>
+tibetan mastiff
+<class 'str'>
+french bulldog
+<class 'str'>
+great dane
+<class 'str'>
+saint bernard, st bernard
+<class 'str'>
+eskimo dog, husky
+<class 'str'>
+malamute, malemute, alaskan malamute
+<class 'str'>
+siberian husky
+<class 'str'>
+dalmatian, coach dog, carriage dog
+<class 'str'>
+affenpinscher, monkey pinscher, monkey dog
+<class 'str'>
+basenji
+<class 'str'>
+pug, pug-dog
+<class 'str'>
+leonberg
+<class 'str'>
+newfoundland, newfoundland dog
+<class 'str'>
+great pyrenees
+<class 'str'>
+samoyed, samoyede
+<class 'str'>
+pomeranian
+<class 'str'>
+chow, chow chow
+<class 'str'>
+keeshond
+<class 'str'>
+brabancon griffon
+<class 'str'>
+pembroke, pembroke welsh corgi, corgi
+<class 'str'>
+cardigan, cardigan welsh corgi, corgi
+<class 'str'>
+toy poodle
+<class 'str'>
+miniature poodle
+<class 'str'>
+standard poodle, poodle
+<class 'str'>
+mexican hairless
+<class 'str'>
+affenpinscher
+<class 'str'>
+afghan hound
+<class 'str'>
+airedale terrier
+<class 'str'>
+akita
+<class 'str'>
+alaskan malamute
+<class 'str'>
+american eskimo dog
+<class 'str'>
+american foxhound
+<class 'str'>
+american staffordshire terrier
+<class 'str'>
+american water spaniel
+<class 'str'>
+anatolian shepherd dog
+<class 'str'>
+australian cattle dog
+<class 'str'>
+australian shepherd
+<class 'str'>
+basset hound
+<class 'str'>
+bearded collie
+<class 'str'>
+beauceron
+<class 'str'>
+belgian malinois
+<class 'str'>
+belgian sheepdog
+<class 'str'>
+belgian tervuren
+<class 'str'>
+bichon frise
+<class 'str'>
+black and tan coonhound
+<class 'str'>
+black russian terrier
+<class 'str'>
+bloodhound
+<class 'str'>
+bluetick coonhound
+<class 'str'>
+borzoi
+<class 'str'>
+boston terrier
+<class 'str'>
+bouvier des flandres
+<class 'str'>
+boykin spaniel
+<class 'str'>
+brittany
+<class 'str'>
+brussels griffon
+<class 'str'>
+bull terrier
+<class 'str'>
+bulldog
+<class 'str'>
+bullmastiff
+<class 'str'>
+cairn terrier
+<class 'str'>
+canaan dog
+<class 'str'>
+cane corso
+<class 'str'>
+cardigan welsh corgi
+<class 'str'>
+cavalier king charles spaniel
+<class 'str'>
+chinese crested
+<class 'str'>
+chinese shar-pei
+<class 'str'>
+chow chow
+<class 'str'>
+clumber spaniel
+<class 'str'>
+cocker spaniel
+<class 'str'>
+corgi
+<class 'str'>
+dachshund
+<class 'str'>
+dalmatian
+<class 'str'>
+dandie dinmont terrier
+<class 'str'>
+deerhound
+<class 'str'>
+doberman pinscher
+<class 'str'>
+dogue de bordeaux
+<class 'str'>
+english cocker spaniel
+<class 'str'>
+english springer spaniel
+<class 'str'>
+english toy spaniel
+<class 'str'>
+entlebucher mountain dog
+<class 'str'>
+field spaniel
+<class 'str'>
+finnish spitz
+<class 'str'>
+german pinscher
+<class 'str'>
+german shepherd dog
+<class 'str'>
+german wirehaired pointer
+<class 'str'>
+glen of imaal terrier
+<class 'str'>
+greyhound
+<class 'str'>
+havanese
+<class 'str'>
+ibizan hound
+<class 'str'>
+icelandic sheepdog
+<class 'str'>
+irish red and white setter
+<class 'str'>
+irish setter
+<class 'str'>
+japanese chin
+<class 'str'>
+leonberger
+<class 'str'>
+lhasa apso
+<class 'str'>
+lowchen
+<class 'str'>
+maltese
+<class 'str'>
+manchester terrier
+<class 'str'>
+mastiff
+<class 'str'>
+neapolitan mastiff
+<class 'str'>
+newfoundland
+<class 'str'>
+norwegian buhund
+<class 'str'>
+norwegian elkhound
+<class 'str'>
+norwegian lundehund
+<class 'str'>
+nova scotia duck tolling retriever
+<class 'str'>
+old english sheepdog
+<class 'str'>
+otterhound
+<class 'str'>
+parson russell terrier
+<class 'str'>
+pekingese
+<class 'str'>
+pembroke welsh corgi
+<class 'str'>
+petit basset griffon vendeen
+<class 'str'>
+pharaoh hound
+<class 'str'>
+plott
+<class 'str'>
+pointer
+<class 'str'>
+poodle
+<class 'str'>
+portuguese water dog
+<class 'str'>
+pug
+<class 'str'>
+saint bernard
+<class 'str'>
+saluki
+<class 'str'>
+samoyed
+<class 'str'>
+schnauzer
+<class 'str'>
+scottish terrier
+<class 'str'>
+sealyham terrier
+<class 'str'>
+shetland sheepdog
+<class 'str'>
+silky terrier
+<class 'str'>
+smooth fox terrier
+<class 'str'>
+staffordshire bull terrier
+<class 'str'>
+tibetan terrier
+<class 'str'>
+vizsla
+<class 'str'>
+walker hound
+<class 'str'>
+wirehaired pointing griffon
+<class 'str'>
+xoloitzcuintli
+<class 'str'>
+dog
+<class 'str'>
+# Done with dog dict
+## Done with dict extension
+
+     MATCH:
+
+                   Dog_02.jfif: 
+Real:                        dog   Classifier:                   pug, pug-dog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+           Animal_Name_01.jfif: 
+Real:                animal name   Classifier: brown bear, bruin, ursus arctos  
+PetLabelDog: 0  ClassLabelDog: 0
+
+           Object_Name_01.jfif: 
+Real:                object name   Classifier:                     coffee mug  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Dog_01.jfif: 
+Real:                        dog   Classifier:      vizsla, hungarian pointer  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match           : 25.000000
+pct_correct_dogs    : 100.000000
+pct_correct_breed   : 50.000000
+pct_correct_notdogs : 100.000000
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:      vizsla, hungarian pointer
+
+** Total Elapsed Runtime: 0:0:0
